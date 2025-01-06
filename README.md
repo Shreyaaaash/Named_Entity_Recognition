@@ -52,12 +52,12 @@ This task assesses skills in **natural language processing (NLP)**, **feature en
 
 #### 🏆 Popularity vs. Named Entity Count
 
-![Entity Count vs words](![image](https://github.com/user-attachments/assets/03feb778-fb00-4b24-aac0-e43f12ed1e40)
+(![image](https://github.com/user-attachments/assets/03feb778-fb00-4b24-aac0-e43f12ed1e40)
 )
 
 #### 📊 Heatmap
 
-![Sentiment vs Length](![image](https://github.com/user-attachments/assets/7c7e4fc4-39b6-47db-a995-4fe27b453e58)
+(![image](https://github.com/user-attachments/assets/7c7e4fc4-39b6-47db-a995-4fe27b453e58)
 )
 
 ## 📝 Findings & Insights
