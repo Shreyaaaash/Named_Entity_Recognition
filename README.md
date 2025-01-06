@@ -9,7 +9,7 @@ The goal of this task is to analyze a set of news articles through **Named Entit
 This task assesses skills in **natural language processing (NLP)**, **feature engineering**, and **predictive analytics**. 🧠
 
 ## 📂 Data Collection
-- The provided dataset of news articles can be accessed here: [News Articles Dataset]([https://www.kaggle.com/datasets/sbhatti/news-articles-dataset](https://www.kaggle.com/datasets/sbhatti/news-articles-corpus))
+- The provided dataset of news articles can be accessed here: [News Articles Dataset]((https://www.kaggle.com/datasets/sbhatti/news-articles-corpus))
 
 ## 🧹 Text Preprocessing
 1. **Cleaning the Text**:
@@ -52,11 +52,13 @@ This task assesses skills in **natural language processing (NLP)**, **feature en
 
 #### 🏆 Popularity vs. Named Entity Count
 
-![Entity Count vs Popularity](images/entity_count_vs_popularity.png)
+![Entity Count vs words](![image](https://github.com/user-attachments/assets/03feb778-fb00-4b24-aac0-e43f12ed1e40)
+)
 
-#### 📊 Sentiment Score vs. Article Length
+#### 📊 Heatmap
 
-![Sentiment vs Length](images/sentiment_vs_length.png)
+![Sentiment vs Length](![image](https://github.com/user-attachments/assets/7c7e4fc4-39b6-47db-a995-4fe27b453e58)
+)
 
 ## 📝 Findings & Insights
 - **Named Entities Impact**: The frequency of **organizations** and **locations** in news articles tends to correlate positively with **engagement metrics** such as likes and shares.
@@ -71,7 +73,7 @@ This task assesses skills in **natural language processing (NLP)**, **feature en
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📢 Acknowledgements
-- Dataset: [News Articles Dataset](https://www.kaggle.com/datasets/sbhatti/news-articles-dataset)
+- Dataset: [News Articles Dataset](https://www.kaggle.com/datasets/sbhatti/news-articles-corpus)
 - Libraries: **SpaCy**, **TextBlob**, **NLTK**, **Matplotlib**, **Seaborn**
 
 ---
