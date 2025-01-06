@@ -9,7 +9,7 @@ The goal of this task is to analyze a set of news articles through **Named Entit
 This task assesses skills in **natural language processing (NLP)**, **feature engineering**, and **predictive analytics**. 🧠
 
 ## 📂 Data Collection
-- The provided dataset of news articles can be accessed here: [News Articles Dataset]((https://www.kaggle.com/datasets/sbhatti/news-articles-corpus))
+- The provided dataset of news articles can be accessed here: [News Articles Dataset](https://www.kaggle.com/datasets/sbhatti/news-articles-corpus)
 
 ## 🧹 Text Preprocessing
 1. **Cleaning the Text**:
