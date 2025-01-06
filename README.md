@@ -1,65 +1,80 @@
-# Named_Entity_Recognition
-News Article Popularity Prediction with Named Entity Recognition (NER)
-Objective
-The goal of this project is to predict the popularity of news articles based on engagement metrics, utilizing Named Entity Recognition (NER) to extract valuable information from the articles and engineer features for predictive modeling.
+# 📰 Named Entity Recognition (NER) and Predictive Modeling for News Articles 📊
 
-The steps involved are as follows:
+## 🎯 Objective
+The goal of this task is to analyze a set of news articles through **Named Entity Recognition (NER)** and to engineer numerical features based on these entities for **predictive modeling**. The task involves:
+- Extracting named entities from articles using an open-source LLM model.
+- Creating insightful features.
+- Building a predictive model to determine article popularity based on engagement metrics.
 
-Text Preprocessing
-Named Entity Recognition (NER)
-Feature Engineering
-Predictive Modeling
-Visualization and Insights
-Dataset
-This project uses the News Articles Dataset, which includes news articles from various sources.
+This task assesses skills in **natural language processing (NLP)**, **feature engineering**, and **predictive analytics**. 🧠
 
-Methodology
-1. Data Collection
-The dataset provides a collection of news articles, which will be cleaned and analyzed to extract relevant information.
-2. Text Preprocessing
-Remove unnecessary whitespace, HTML tags, and special characters from the articles.
-Normalize text by converting it to lowercase.
-Tokenize the text and remove stop words using libraries like NLTK or SpaCy.
-3. Named Entity Recognition (NER)
-Use an open-source LLM model (SpaCy or Hugging Face) to perform Named Entity Recognition (NER).
-Entities will be categorized into types such as Organization (ORG), Location (GPE), and Person (PERSON).
-Numerical features will be created based on the frequency of these entities in each article.
-4. Feature Engineering
-Combine the entity counts with other features:
-Article Length: The number of words in each article.
-Sentiment Score: Using TextBlob or VADER for sentiment analysis.
-Engagement Metrics: Metrics like likes, shares, and comments (if available in the dataset).
-Additional Features: Any creative or innovative features derived to enhance the model.
-5. Predictive Modeling
-A predictive model will be trained using the engineered features.
-Models like Linear Regression or Random Forest will be used, and their performance will be evaluated using:
-Accuracy Score
-F1-Score
-Mean Absolute Error (MAE)
-6. Visualization
-Visualizations will be created to show the relationship between named entities and article popularity:
-Bar Charts: Displaying the frequency of entities in the dataset.
-Scatter Plots: Showing correlations between entity counts and article popularity.
-Heatmaps: Showing the relationship between engagement metrics and the frequency of named entities.
-Getting Started
-Clone the repository:
+## 📂 Data Collection
+- The provided dataset of news articles can be accessed here: [News Articles Dataset]([https://www.kaggle.com/datasets/sbhatti/news-articles-dataset](https://www.kaggle.com/datasets/sbhatti/news-articles-corpus))
 
-bash
-Copy code
-git clone https://github.com/your-username/News-Article-Popularity-Prediction.git
-Install dependencies:
+## 🧹 Text Preprocessing
+1. **Cleaning the Text**:
+   - Remove unnecessary whitespace, HTML tags, and special characters.
+   - Normalize text (convert to lowercase).
+2. **Tokenization & Stop Words Removal**:
+   - Tokenize the text and remove stop words using libraries like **NLTK** or **SpaCy**.
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the script to preprocess the text and build the predictive model:
+## 🤖 Named Entity Recognition (NER)
+1. **Entity Extraction**:
+   - Use an open-source LLM model **SpaCy** to extract named entities from the cleaned articles.
+2. **Entity Categorization**:
+   - Ensure entities are categorized correctly into types such as **Organizations (ORG)**, **Locations (GPE)**, and **People (PERSON)**.
+3. **Entity Frequency**:
+   - Create numerical features based on the frequency of each entity type in each article (e.g., count of organizations, locations, and people).
 
-bash
-Copy code
-python main.py
-Visualizations
-Below are some visualizations showcasing the relationship between the named entities and article engagement metrics.
+## 🔧 Feature Engineering
+1. **Additional Features**:
+   - Article length (number of words).
+   - Sentiment scores (using **TextBlob** or **VADER**).
+   - Engagement metrics (likes, shares, comments) if available in the dataset.
+2. **Innovation**:
+   - Derive creative features beyond the basic entity counts to enhance the feature set.
 
-Bar Charts for entity frequency.
-Scatter Plots illustrating the correlation between entity counts and article popularity.
-Heatmaps showing the relationship between entity types and engagement metrics like likes, shares, and comments.
+## 📈 Predictive Modeling
+1. **Model Selection**:
+   - Train a predictive model using the engineered features to predict article popularity. Possible models include **Linear Regression**, **Random Forest**, etc.
+2. **Model Evaluation**:
+   - Evaluate the model performance using **accuracy scores**, **F1-scores**, or **mean absolute error (MAE)**.
+
+## 📊 Visualization
+1. **Visualizations**:
+   - Create visualizations to show the relationship between named entities and article popularity.
+   - Use libraries like **Matplotlib** or **Seaborn** to generate:
+     - Bar charts for entity frequency.
+     - Scatter plots illustrating correlations.
+     - Heatmaps for the relationship between entity counts and engagement metrics.
+
+### Example Visualizations:
+
+#### 🏆 Popularity vs. Named Entity Count
+
+![Entity Count vs Popularity](images/entity_count_vs_popularity.png)
+
+#### 📊 Sentiment Score vs. Article Length
+
+![Sentiment vs Length](images/sentiment_vs_length.png)
+
+## 📝 Findings & Insights
+- **Named Entities Impact**: The frequency of **organizations** and **locations** in news articles tends to correlate positively with **engagement metrics** such as likes and shares.
+- **Sentiment Analysis**: Articles with more **positive sentiment** tend to receive higher engagement compared to those with **neutral or negative sentiment**.
+- **Article Length**: Articles with a higher word count tend to have more **named entities**, which in turn leads to better engagement.
+
+## 🚀 Next Steps
+- Experiment with more sophisticated **NLP techniques** for **entity extraction** and **feature engineering**.
+- Explore different **predictive models** and **evaluation metrics** to improve accuracy and generalizability.
+
+## 📅 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📢 Acknowledgements
+- Dataset: [News Articles Dataset](https://www.kaggle.com/datasets/sbhatti/news-articles-dataset)
+- Libraries: **SpaCy**, **TextBlob**, **NLTK**, **Matplotlib**, **Seaborn**
+
+---
+
+Feel free to open an issue or submit a pull request if you have any suggestions or improvements! 💬
+
